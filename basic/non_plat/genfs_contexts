@@ -53,7 +53,6 @@ genfscon proc /partitions u:object_r:proc_partition:s0
 genfscon proc /isp_p2/isp_p2_dump u:object_r:proc_isp_p2_dump:s0
 genfscon proc /isp_p2/isp_p2_kedump u:object_r:proc_isp_p2_kedump:s0
 genfscon proc /mali/memory_usage u:object_r:proc_memory_usage:s0
-genfscon proc /mtk_es_reg_dump u:object_r:proc_mtk_es_reg_dump:s0
 
 # Purpose : mtk EM c2k bypass read usb file
 genfscon proc /isp_p2 u:object_r:proc_isp_p2:s0
